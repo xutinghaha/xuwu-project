@@ -14,6 +14,8 @@ public class IndexController {
 
     @RequestMapping({"/","/index"})
     public String toIndex(Model model) {
+
+        Integer.parseInt("1.26");
         return "index";
     }
 }
