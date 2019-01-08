@@ -9,21 +9,21 @@
 ``
 ### 技术简介
 
-1.1持久层
-采用JPA持久层开发框架，
+- 持久层
+  采用JPA持久层开发框架，
 
-使用阿里云druid线程池，配置多数据源
+ 使用阿里云druid线程池，配置多数据源
 
-项目自持多中数据库，真实数据库：mysql,测试数据库：h2
+ 项目自持多中数据库，真实数据库：mysql,测试数据库：h2
 
-1.2web
+- web
 
 支持PC:
 
 thymeleaf框架
 ---spring整个thymeleaf，参考API：https://www.thymeleaf.org/doc/tutorials/3.0/thymeleafspring.html
 
-微信
+- 微信
 
 2.平台架构设计
 
