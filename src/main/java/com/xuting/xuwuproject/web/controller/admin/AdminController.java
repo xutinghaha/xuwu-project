@@ -28,7 +28,7 @@ public class AdminController {
      * 欢迎页
      * @return
      */
-    @GetMapping("/admin/welcome")
+    @GetMapping("welcome")
     public String welcomePage() {
         return "admin/welcome";
     }
@@ -37,7 +37,7 @@ public class AdminController {
      * 管理员登录页
      * @return
      */
-    @GetMapping("/admin/login")
+    @GetMapping("/login")
     public String adminLoginPage() {
         return "admin/login";
     }
@@ -46,7 +46,7 @@ public class AdminController {
      * 房源列表页
      * @return
      */
-    @GetMapping("admin/house/list")
+    @GetMapping("/house/list")
     public String houseListPage() {
         return "admin/house-list";
     }
